@@ -1,0 +1,26 @@
+.header {
+    height: 10%;
+    width: 96%;
+    background-color: cornflowerblue;
+    position:absolute;
+    top: 2%;
+    left: 2%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 1em;
+}
+
+.header-main {
+    font-size: 3em;
+    font-weight: bold;
+}
+
+.header-login {
+    position: relative;
+    left: 40%;
+}
+
+.header-login-span {
+    font-size: 2em;
+}

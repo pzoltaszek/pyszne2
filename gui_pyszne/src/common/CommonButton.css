@@ -1,0 +1,23 @@
+
+.common-button {
+    font-size: 2em;
+    border-radius: 0.5em;
+    border: none;
+    background-color:lightgreen;
+    margin: 0.5em;
+}
+
+.common-button:active {
+    font-size: 2em;
+    border-radius: 0.5em;
+    border: none;
+    background-color:red;
+}
+
+.common-button:hover {
+    font-size: 2em;
+    border-radius: 0.5em;
+    border: none;
+    background-color:green;
+    text-decoration: none;
+}

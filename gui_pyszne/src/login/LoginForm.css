@@ -1,0 +1,39 @@
+.login-form {
+    font-size: 1em;
+    color: red;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin-top: 2em;
+}
+
+.login-form-submit, .login-form-submit:focus{
+    font-size: 1.2em;
+    border-radius: 0.5em;
+    border: none;
+    background-color:lightgreen;
+}
+
+
+.login-form-submit:active {
+    font-size: 1.2em;
+    border-radius: 0.5em;
+    border: none;
+    background-color:red;
+}
+
+.login-form-submit:hover {
+    font-size: 1.2em;
+    border-radius: 0.5em;
+    border: none;
+    background-color:green;
+    text-decoration: none;
+}
+
+.login-form-input, .login-form-input:focus {
+    font-size: 1.2em;
+    background-color: white;
+    border:1px solid black;
+    margin: 0.5em;
+}
